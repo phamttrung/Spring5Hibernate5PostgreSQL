@@ -1,0 +1,78 @@
+html, body{
+    height: 99%;
+}
+
+#mainWrapper {
+    height: 98%;
+}
+
+.floatRight{
+    float:right;
+}
+
+.has-error{
+    color:red;
+}
+
+.generic-container {
+  position:fixed;
+  width:99%;
+  margin-left: 2px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  padding: 2px;
+  background-color: #EAE7E7;
+  border: 1px solid #ddd;
+  border-radius: 2px;
+  box-shadow: 0 0 10px black;
+}
+
+.custom-width {
+    width: 80px !important;
+}
+
+body, #mainWrapper, .form-control{
+    font-size:12px!important;
+}
+
+#mainWrapper {
+    /*height: 720px; Without explicit px values, % in children's does not work*/
+    height: 100vh; /*with Viewport-Percentage, we can handles all devices screens  */
+    padding-left:10px;
+    padding-right:10px;
+    padding-bottom:10px;
+}
+
+.login-container {
+    margin-top: 2px;
+    /*background-color: floralwhite;*/
+    width: 30%;
+    left: 20%;
+
+}
+
+.login-card {
+    width: 80%;
+    margin: auto;
+}
+
+.login-form {
+    padding: 2%;
+}
+
+.authbar{
+    margin-bottom:2px;
+    background-color: black;
+    height: 40px;
+    padding: 5px;
+}
+
+.login-disclaimer {
+    padding: 0px 10px 5px 5px;
+    border-width: thin;
+    border-spacing: 2px;
+    border-style: none;
+    border-color: black;
+    width: 75%;
+    left: 25%;
+}
